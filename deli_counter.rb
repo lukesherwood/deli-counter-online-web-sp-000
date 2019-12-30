@@ -17,5 +17,5 @@ def take_a_number(array, name)
   array << name
   #adds to end of line if not empty
   # puts name and position in line
-  array.each_with_index {|name, index|puts "Welcome #{name}. You are number #{index} in line."}
+  array.each_with_index {|name, index|puts "Welcome, #{name}. You are number #{index+1} in line."}
 end
