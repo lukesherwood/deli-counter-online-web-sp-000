@@ -12,8 +12,10 @@ def line(array)
 end
 
 def take_a_number(array, name)
-  # puts name and position in line
+ 
   #adds to line if no one in line
+  
   #adds to end of line if not empty
+  # puts name and position in line
   array.each_with_index {|name, index|puts "Welcome #{name}. You are number #{index} in line."}
 end
