@@ -14,7 +14,7 @@ end
 def take_a_number(array, name)
  
   #adds to line if no one in line
-  katz_deli = array << name
+  katz_deli = array.push(name)
   #adds to end of line if not empty
   
   # puts name and position in line
